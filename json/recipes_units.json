@@ -1,0 +1,53 @@
+[
+   {
+      "title": "Penang Chicken Curry",
+      "ingredients": [
+         {
+            "chicken thighs": {
+               "qty": 10,
+               "unit": "kg"
+            },
+            "pumpkim": {
+               "qty": 10,
+               "unit": "kg"
+            },
+            "vegetable oil": {
+               "qty": 10,
+               "unit": "kg"
+            },
+            "red curry paste": {
+               "qty": 10,
+               "unit": "kg"
+            },
+            "coconut cream": {
+               "qty": 10,
+               "unit": "kg"
+            },
+            "fish sauce": {
+               "qty": 10,
+               "unit": "kg"
+            },
+            "peanuts": {
+               "qty": 10,
+               "unit": "kg"
+            },
+            "thai basil": {
+               "qty": 10,
+               "unit": "kg"
+            }
+         }
+      ]
+   },
+   {
+      "title": "Seafood Chowder",
+      "ingredients": [
+         "seafood marinara",
+         "celery",
+         "cream",
+         "fish sauce",
+         "onion",
+         "bacon",
+         "chicken stock"
+      ]
+   }
+]

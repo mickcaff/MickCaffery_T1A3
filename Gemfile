@@ -7,3 +7,5 @@ source "https://rubygems.org"
 gem "rspec", "~> 3.11"
 
 gem "coderay", "~> 1.1"
+
+gem 'tty-font'

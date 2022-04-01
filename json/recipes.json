@@ -15,13 +15,28 @@
    {
       "title": "Seafood Chowder",
       "ingredients": [
-         "seafood marinara",
+         "seafood",
          "celery",
          "cream",
-         "fish sauce",
+         "vegetable oil",
          "onion",
+         "parsley",
          "bacon",
-         "chicken stock"
+         "chicken stock",
+         "potatoes",
+         "garlic",
+         "white wine"
+      ]
+   },
+   {
+      "title": "Mushroom Gnocchi",
+      "ingredients": [
+         "mushrooms",
+         "gnocchi",
+         "olive oil",
+         "sage leaves",
+         "garlic",
+         "cream"
       ]
    }
 ]

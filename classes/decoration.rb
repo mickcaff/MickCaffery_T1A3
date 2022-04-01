@@ -1,7 +1,7 @@
 class Decoration
 
    def single_line(length)
-      p "-" * length
+      puts "-" * length
    end
 
 end

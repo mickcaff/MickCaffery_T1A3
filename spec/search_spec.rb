@@ -12,6 +12,22 @@ describe 'Search' do
       user_choice.select_ingredient = 'cheese'
       expect(user_choice.select_ingredient).to eq('cheese')
    end
+
+   #method only returns nil
+   it 'results are displayed' do
+      display_test = Search.new
+      display_test.recipe_search = ['cheese']
+      expect(display_test.selection).to eq(nil)
+   end
+   # Need to find way to test def se
+   # it 'will search for ingredient included in array' do
+   #    search_test = Search.new
+   #    search_test.select_ingredient = 'cream'
+   #    expect(search_test.recipe_search.empty?).to eq(false)
+   # end
+
+
+
 end
    # it 'displays searched ingredients in array' do  
    #    choice1 = Search.new

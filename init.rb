@@ -1,16 +1,18 @@
 # IMPORTS - CLASSES
-require "./classes/search"
+require "./classes/functions"
 require "./classes/decoration"
 require "./classes/messages"
 # IMPORTS - GEMS
 require "tty-font"
 require "tty-prompt"
+# require "pastel"
 
 # CONSTANTS
 font = TTY::Font.new(:standard)
 break_line = Decoration.new
 message = Messages.new
-search = Search.new
+function = Functions.new
+pastel = Pastel.new
 
 # TITLE & WELCOME BANNER
 puts font.write("RECIPE PRO")
@@ -20,4 +22,8 @@ break_line.single_line(72)
 message.message_puts("")
 
 # SEARCH INGREDIENTS
-   search.search_main
+function.search_main
+function.read_recipe
+function.search_again_prompt
+# p function.selection.class
+# puts pastel.red("Unicorns!")

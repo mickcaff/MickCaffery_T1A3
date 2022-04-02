@@ -2,6 +2,7 @@ GEM
   remote: https://rubygems.org/
   specs:
     coderay (1.1.3)
+    colorize (0.8.1)
     diff-lcs (1.5.0)
     pastel (0.8.0)
       tty-color (~> 0.5)
@@ -36,6 +37,8 @@ PLATFORMS
 
 DEPENDENCIES
   coderay (~> 1.1)
+  colorize (~> 0.8.1)
+  pastel
   rspec (~> 3.11)
   tty-font
   tty-prompt

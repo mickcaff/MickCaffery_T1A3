@@ -132,6 +132,7 @@ class Functions
    def list_output
       list_file = File.open("./txt/shopping_list.txt", 'a')
       list_file.puts(@shopping_list.uniq.sort)
+      list_file.close
    end
 
    def display
@@ -139,6 +140,12 @@ class Functions
       puts "Your shopping list consists of:"
       check = File.read("./txt/shopping_list.txt")
       puts check
+   end
+
+   def clear_list
+      clear = File.open("./txt/shopping_list.txt", "w")
+      clear.puts([])
+      clear.close
    end
 
 end

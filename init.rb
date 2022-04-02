@@ -15,13 +15,14 @@ function = Functions.new
 pastel = Pastel.new
 
 # TITLE & WELCOME BANNER
-puts font.write("RECIPE PRO")
+puts font.write("RECIPE  PRO")
 break_line.single_line(72)
 message.message_puts("#{"-"*10} WELCOME TO RECIPE PRO - YOUR GROCERY LIST COMPANION #{"-"*9}")
 break_line.single_line(72)
 message.message_puts("")
 
 # MAIN APP
+function.clear_list
 function.list
 loop do
    function.search_main

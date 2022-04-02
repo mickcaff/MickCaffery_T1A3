@@ -22,6 +22,7 @@ break_line.single_line(72)
 message.message_puts("")
 
 # MAIN APP
+function.list
 loop do
    function.search_main
    function.read_recipe
@@ -40,3 +41,5 @@ loop do
       break
    end
 end
+function.list_output
+function.display

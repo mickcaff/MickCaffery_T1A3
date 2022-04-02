@@ -120,13 +120,25 @@ class Functions
    def list_add
       @recipes_init.each do |recipe|
          if @selection == recipe[:title]
-            list << recipe[:ingredients]
+            @shopping_list += recipe[:ingredients]
             puts ""
             puts "The ingredients for #{@selection} have been added to the grocery list"
             puts ""
             search_again_prompt
          end
       end
+   end
+
+   def list_output
+      list_file = File.open("./txt/shopping_list.txt", 'a')
+      list_file.puts(@shopping_list.uniq.sort)
+   end
+
+   def display
+      puts ""
+      puts "Your shopping list consists of:"
+      check = File.read("./txt/shopping_list.txt")
+      puts check
    end
 
 end

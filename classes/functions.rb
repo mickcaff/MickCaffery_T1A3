@@ -1,6 +1,7 @@
 require 'json'
 require "tty-prompt"
 require 'colorize'
+require "tty-font"
 
 class Functions
 
@@ -8,11 +9,14 @@ class Functions
    attr_accessor :recipe_search
    attr_reader :recipes_init
    attr_accessor :prompt
+   attr_accessor :font
    attr_accessor :selection
    attr_accessor :no_ingr
    attr_accessor :choices
    attr_accessor :shopping_list
    attr_accessor :add_response
+   attr_accessor :add_ingredients
+   attr_accessor :search_again
 
    def initialize
       @recipes_init = JSON.load_file('./json/recipes.json', symbolize_names: true)
@@ -20,6 +24,10 @@ class Functions
 
    def prompt
       @prompt = TTY::Prompt.new
+   end
+
+   def font
+      @font = TTY::Font.new(:standard)
    end
 
    def user_input
@@ -36,6 +44,7 @@ class Functions
 
    def search_each
       loop do
+         puts ""
          puts "Which ingredient would you like to search for?"
          print "> "
          user_input
@@ -51,7 +60,6 @@ class Functions
          if @no_ingr == true
             puts "There are no recipes which contain " + "#{@select_ingredient}".colorize(:red) +"."
             puts "Please search again"
-            puts ""
             next
          end
          break
@@ -85,6 +93,7 @@ class Functions
             fileobject = File.read("./txt/#{recipe[:title]}.txt")
             puts ""
             puts "-"*10
+            puts font.write("#{recipe[:title]}")
             puts fileobject
             puts "-"*10
             puts ""
@@ -92,23 +101,32 @@ class Functions
       end
    end
 
-   def search_again_prompt
+   def add_ingredients_prompt
       prompt
-      choices2 = ['Yes', 'Search Again', 'Exit']
-      @search_again = prompt.select("Would you like to add these ingredients to your shopping list?", choices2)
+      choices2 = ['Yes', 'No', 'Exit']
+      @add_ingredients = prompt.select("Would you like to add these ingredients to your shopping list?", choices2)
    end
 
-   # def list_add
-   #    @recipes_init.each do |recipe|
-   #       if @selection == recipe[:title]
-   #          @shopping_list += recipe[:ingredients]
-   #       end
-   #    end
-   # end
+   def search_again_prompt
+      prompt
+      choices3 = ['Search again', 'Exit']
+      @search_again = prompt.select("Would you like to search again or exit with your grocery list?", choices3)
+   end
 
-   # def
-   #    if @add_response = 
-   # end   
+   def list
+      @shopping_list = []
+   end
 
+   def list_add
+      @recipes_init.each do |recipe|
+         if @selection == recipe[:title]
+            list << recipe[:ingredients]
+            puts ""
+            puts "The ingredients for #{@selection} have been added to the grocery list"
+            puts ""
+            search_again_prompt
+         end
+      end
+   end
 
 end

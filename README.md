@@ -50,13 +50,13 @@ The simplest way to run this application on your local machine is to:
 
 
 
-### Command Line Arguments ###
+# Command Line Arguments
 
 # Dependencies
 
 This application is written in Ruby programming language, and requires Ruby to be installed to run. Instructions on how to download and install Ruby can be found at [ruby-lang.org](https://www.ruby-lang.org/en/downloads/).
 
-The app uses the following Ruby Gems:
+The app uses the following Ruby Gems. These are all installed automatically through Bundler, following the installation guide.
 ```
 source "https://rubygems.org"
 gem "rspec", "~> 3.11"
@@ -65,4 +65,3 @@ gem 'tty-font'
 gem "tty-prompt"
 gem "colorize", "~> 0.8.1"
 ```
-# System and Hardware Requirements

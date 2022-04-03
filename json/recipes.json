@@ -3,7 +3,7 @@
       "title": "Penang Chicken Curry",
       "ingredients": [
          "chicken",
-         "pumpkim",
+         "pumpkin",
          "vegetable oil",
          "red curry paste",
          "coconut cream",
@@ -78,6 +78,64 @@
          "avovado",
          "snow pea sprouts",
          "pomegranate"
+      ]
+   },
+   {
+      "title": "Pumpkin Fruit Cake",
+      "ingredients": [
+         "pumpkin",
+         "butter",
+         "sugar",
+         "eggs",
+         "vanilla essence",
+         "dried fruit",
+         "self raising flour"
+      ]
+   },
+   {
+      "title": "Lentil Soup",
+      "ingredients": [
+         "carrot",
+         "onion",
+         "celery",
+         "garlic",
+         "tomato paste",
+         "lentils",
+         "bay leaves",
+         "vegetable stock",
+         "red wine vinegar"
+      ]
+   },
+   {
+      "title": "Okonomiyaki Pancakes",
+      "ingredients": [
+         "flour",
+         "sugar",
+         "baking powder",
+         "carrot",
+         "cabbage",
+         "spring onion",
+         "eggs",
+         "vegetable stock",
+         "olive oil",
+         "kewpie mayonnaise"
+      ]
+   },
+   {
+      "title": "Lamb Gozleme",
+      "ingredients": [
+         "greek yoghurt",
+         "self raising flour",
+         "lamb",
+         "spinach",
+         "capsicum",
+         "feta",
+         "garlic",
+         "mint",
+         "lemon",
+         "olive oil",
+         "cumin",
+         "paprika"
       ]
    }
 ]

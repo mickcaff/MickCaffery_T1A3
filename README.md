@@ -13,6 +13,8 @@ The weekly time consuming tradition of searching through my recipes and writing 
 - View recipes
 - Select ingredients to be added to a groceries list
 
+As an example, try searching for either **cream**, **carrot**, or **pumpkin** and see what recipes come up. At the moment, the app is only designed to search for one ingredient at a time. 
+
 I hope you enjoy using it! I'll be aiming to add more features to it as my Ruby coding skills improve.
 
 Happy cheffing!

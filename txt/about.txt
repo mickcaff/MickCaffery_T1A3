@@ -1,5 +1,3 @@
-Welcome to my very first terminal application!
-
 Recipe pro is a terminal app which was created as a part of Coder Academy Web Development Bootcamp - Term 1 assignment. 
 
 I really enjoy cooking, and have collected all my favourite recipes over the years and have them stored either as a paper copy in a folder or a picture on my onedrive. 

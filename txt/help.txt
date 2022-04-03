@@ -1,3 +1,16 @@
-help
-help
-help
+Welcome to Recipe Pro help.
+
+The following commands can be entered into the terminal:
+
+-  'ruby rpro.rb --about'
+-  About page
+
+-  'ruby rpro.rb --list'
+-  To see the entire list of recipes sorted alphabetically. 
+
+-  'ruby rpro.rb chef 'name''
+-  If you would like add a personal touch. i.e 'ruby rpro.rb chef matt'
+
+-  './run_app.sh'
+-  To run the app
+

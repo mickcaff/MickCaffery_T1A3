@@ -1,6 +1,5 @@
 # IMPORTS - CLASSES
 require "./classes/functions"
-require "./classes/decoration"
 require "./classes/messages"
 # IMPORTS - GEMS
 require "json"
@@ -9,7 +8,6 @@ require "tty-prompt"
 
 # CONSTANTS
 font2 = TTY::Font.new(:standard)
-break_line = Decoration.new
 message = Messages.new
 function = Functions.new
 
@@ -23,9 +21,9 @@ begin
       chef_new.close
       puts font2.write(chef_who)
    end
-   break_line.single_line(72)
+   message.single_line(72)
    message.message_puts("#{"-"*10} WELCOME TO RECIPE PRO - YOUR GROCERY LIST COMPANION #{"-"*9}")
-   break_line.single_line(72)
+   message.single_line(72)
    message.message_puts("")
 
    # MAIN APP

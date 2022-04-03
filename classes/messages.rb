@@ -12,4 +12,8 @@ class Messages
       print input
       return input
    end
+
+   def single_line(length)
+      puts "-" * length
+   end
 end

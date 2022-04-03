@@ -38,7 +38,6 @@ If it is your first time using the app on your local machine, then it is recomme
 
 If you do not have Bundler, please first run `gem install bundler`
 
-
 The simplest way to run this application on your local machine is to:
 1. Download the MickCaffery_T1A3-master.zip file from the github respository https://github.com/mickcaff/MickCaffery_T1A3
 2. Unzip the file
@@ -57,9 +56,6 @@ The simplest way to run this application on your local machine is to:
 ```
 3. It is recommend to view the terminal in full screen.
 
-
-
-
 # Command Line Arguments
 
 The following commands can be entered into the terminal:
@@ -70,11 +66,9 @@ The following commands can be entered into the terminal:
 
 -  'ruby rpro.rb --list' -----> To see the entire list of recipes sorted alphabetically. 
 
--  'ruby rpro.rb chef 'name'' -----> If you would like add a personal touch. i.e 'ruby rpro.rb chef matt'
+-  'ruby rpro.rb chef 'name'' ------> If you would like to add a personal touch. ------> i.e 'ruby rpro.rb chef matt'
 
 -  './run_app.sh' -----> To run the app
-
-
 
 # Dependencies
 

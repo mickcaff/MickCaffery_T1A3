@@ -9,6 +9,8 @@ The app currently has three main features:
 - View recipes
 - Select ingredients to added to a grocery list
 
+Currently the app only supports searching for one ingredient at a time.
+
 I hope you enjoy using it! I'll be aiming to add more features to it as my Ruby coding skills improve.
 
 Happy cheffing!

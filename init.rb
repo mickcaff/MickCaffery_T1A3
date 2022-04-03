@@ -21,10 +21,7 @@ begin
       chef_new.close
       puts font2.write(chef_who)
    end
-   message.single_line(72)
-   message.message_puts("#{"-"*10} WELCOME TO RECIPE PRO - YOUR GROCERY LIST COMPANION #{"-"*9}")
-   message.single_line(72)
-   message.message_puts("")
+   message.print_welcome
 
    # MAIN APP
    function.clear_list

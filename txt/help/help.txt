@@ -1,5 +1,7 @@
 Welcome to Recipe Pro help.
 
+Currently the app only supports searching for one recipe at a time.
+
 The following commands can be entered into the terminal:
 
 -  'ruby rpro.rb --about'

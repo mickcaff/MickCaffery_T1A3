@@ -1,11 +1,21 @@
 # About
 ## RECIPE PRO
-Recipe pro is a terminal application which was created as a part of Coder Academy's T1A3 assignment. The app was born from the idea to digitise all of my favourite recipes, to make them easier to navigate, and the process of creating a groceries list simpler. The user can navigate through the apps recipes by searching for there chosen ingredient. 
+Welcome to my very first terminal application!
 
-### Features
+Recipe pro is a terminal app which was created as a part of Coder Academy Web Development Bootcamp - Term 1 assignment. 
+
+I really enjoy cooking, and have collected all my favourite recipes over the years and have them stored either as a paper copy in a folder or a picture on my onedrive. 
+
+The weekly time consuming tradition of searching through my recipes and writing out a grocery list, is what gave birth to the idea for Recipe Pro! The app stores all of my favourite recipes and allows the user to search by ingredient, then takes the hard work out of creating a grocery list.
+
+### The app currently has three main features:
 - Search recipes based on ingredients
 - View recipes
 - Select ingredients to be added to a groceries list
+
+I hope you enjoy using it! I'll be aiming to add more features to it as my Ruby coding skills improve.
+
+Happy cheffing!
 
 ## Other Information
 

@@ -2,7 +2,7 @@
    {
       "title": "Penang Chicken Curry",
       "ingredients": [
-         "chicken thighs",
+         "chicken",
          "pumpkim",
          "vegetable oil",
          "red curry paste",
@@ -15,6 +15,7 @@
    {
       "title": "Seafood Chowder",
       "ingredients": [
+         "fish",
          "seafood",
          "celery",
          "cream",
@@ -34,9 +35,49 @@
          "mushrooms",
          "gnocchi",
          "olive oil",
-         "sage leaves",
+         "sage",
          "garlic",
          "cream"
+      ]
+   },
+   {
+      "title": "Leek & Cauliflower Pie",
+      "ingredients": [
+         "fish",
+         "seafood",
+         "cauliflower",
+         "parmesan",
+         "mozzarella",
+         "leek",
+         "flour",
+         "cream",
+         "dill"
+      ]
+   },
+   {
+      "title": "Black Bean Soup",
+      "ingredients": [
+         "onion",
+         "thyme",
+         "garlic",
+         "bay leaves",
+         "cumin",
+         "coriander",
+         "paprika",
+         "capsicum",
+         "passata",
+         "black beans",
+         "vegetable stock"
+      ]   
+   },
+   {
+      "title": "Mango Salad",
+      "ingredients": [
+         "salad leaves",
+         "mango",
+         "avovado",
+         "snow pea sprouts",
+         "pomegranate"
       ]
    }
 ]

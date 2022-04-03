@@ -1,4 +1,3 @@
-Seafood Chowder
 
 Ingredients
 0.5 kg seafood marinara
@@ -15,7 +14,10 @@ Ingredients
 0.5 cup white wine
 
 Method
-Step 1
-Step 2
-Step 3
-Step 4
+1. Fry bacon in pot
+2. Add onion, celery and garlic. Cook for 4 - 5 mins
+3. Stir in flour
+4. Add stock and potatoes
+5. Gently boil for 10 mins
+6. Stir through fish & seafood. Simmer for 2 minutes.
+7. Serve with parsley

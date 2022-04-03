@@ -86,6 +86,7 @@ gem "coderay", "~> 1.1"
 gem 'tty-font'
 gem "tty-prompt"
 gem "colorize", "~> 0.8.1"
+gem 'tty-link'
 ```
 # System/Hardware Requirements
 There are no system/hardware requirements, apart from what is already stated in the installation and dependencies sections. 

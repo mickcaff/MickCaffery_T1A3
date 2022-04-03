@@ -7,25 +7,19 @@ require "tty-font"
 require "tty-prompt"
 
 # CONSTANTS
-font2 = TTY::Font.new(:standard)
 message = Messages.new
 function = Functions.new
 
-# TITLE & WELCOME BANNER
 begin
-   if File.empty?("./txt/help/chef.txt")
-      puts font2.write("RECIPE  PRO")
-   else
-      chef_new = File.new("./txt/help/chef.txt", 'r')
-      chef_who = chef_new.gets.chomp.upcase
-      chef_new.close
-      puts font2.write(chef_who)
-   end
+   # TITLE & WELCOME BANNER
+   message.print_logo
    message.print_welcome
 
    # MAIN APP
+   # Clear shopping_list.txt to begin
    function.clear_list
    function.list
+   # Main loop with 3 main features
    loop do
       function.search_main
       function.read_recipe
@@ -44,6 +38,7 @@ begin
          break
       end
    end
+   # Output shopping_list.txt to finish
    function.list_output
    function.display
 rescue Interrupt

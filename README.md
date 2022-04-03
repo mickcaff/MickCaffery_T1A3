@@ -34,10 +34,8 @@ Happy cheffing!
 ## First time installation ##
 If it is your first time using the app on your local machine, then it is recommended to install all of the dependencies using Bundler. The steps to do this are shown below.
 
-**If you do not have Bundler**, then please install Bundler before continuing...
+If you do not have Bundler, please first run `gem install bundler`
 
-
-**If you do have Bundler**, then please continue below:
 
 The simplest way to run this application on your local machine is to:
 1. Download the MickCaffery_T1A3-master.zip file from the github respository https://github.com/mickcaff/MickCaffery_T1A3
@@ -62,6 +60,18 @@ The simplest way to run this application on your local machine is to:
 
 # Command Line Arguments
 
+The following commands can be entered into the terminal:
+
+-  'ruby rpro.rb --about' -----> About page
+
+-  'ruby rpro.rb --list' -----> To see the entire list of recipes sorted alphabetically. 
+
+-  'ruby rpro.rb chef 'name'' -----> If you would like add a personal touch. i.e 'ruby rpro.rb chef matt'
+
+-  './run_app.sh' -----> To run the app
+
+
+
 # Dependencies
 
 This application is written in Ruby programming language, and requires Ruby to be installed to run. Instructions on how to download and install Ruby can be found at [ruby-lang.org](https://www.ruby-lang.org/en/downloads/).
@@ -75,3 +85,5 @@ gem 'tty-font'
 gem "tty-prompt"
 gem "colorize", "~> 0.8.1"
 ```
+# System/Hardware Requirements
+There are no system/hardware requirements, apart from what is already stated in the installation and dependencies sections. 

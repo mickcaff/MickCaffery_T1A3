@@ -15,10 +15,10 @@ function = Functions.new
 
 # TITLE & WELCOME BANNER
 begin
-   if File.empty?("./txt/chef.txt")
+   if File.empty?("./txt/help/chef.txt")
       puts font2.write("RECIPE  PRO")
    else
-      chef_new = File.new("./txt/chef.txt", 'r')
+      chef_new = File.new("./txt/help/chef.txt", 'r')
       chef_who = chef_new.gets.chomp.upcase
       chef_new.close
       puts font2.write(chef_who)

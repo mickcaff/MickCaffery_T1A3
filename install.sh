@@ -25,4 +25,3 @@ printf ">>> INSTALLATION COMPLETE <<<\n"
 printf "\n"
 printf "To run RECIPE PRO, please type './run_app.sh' in the command line below. Enjoy!\n"
 printf "\n"
-

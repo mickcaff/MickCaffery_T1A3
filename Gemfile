@@ -13,3 +13,5 @@ gem 'tty-font'
 gem "tty-prompt"
 
 gem "colorize", "~> 0.8.1"
+
+gem 'tty-link'

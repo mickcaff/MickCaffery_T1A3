@@ -1,3 +1,4 @@
+# IMPORTS
 require "./classes/functions"
 
 # CLI ARGUMENTS
@@ -5,6 +6,7 @@ argument1 = ARGV[0]
 argument2 = ARGV[1]
 function_rpro = Functions.new
 
+# CLI COMMANDS
 case argument1
 when '--help'
    File.foreach("./txt/help.txt") do |line|

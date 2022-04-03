@@ -2,6 +2,7 @@ require 'json'
 require "tty-prompt"
 require 'colorize'
 require "tty-font"
+require 'tty-link'
 
 class Functions
 
@@ -137,7 +138,10 @@ class Functions
 
    def display
       puts ""
-      puts "Your shopping list consists of:"
+      puts "Your shopping list can be found at the following link:"
+      puts TTY::Link.link_to("Shopping List", "./txt/shopping_list.txt")
+      puts ""
+      puts "Your list consists of:".colorize(:white).underline
       check = File.read("./txt/shopping_list.txt")
       puts check
    end

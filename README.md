@@ -44,7 +44,7 @@ The simplest way to run this application on your local machine is to:
 3. Using the terminal, navigate to the unzipped folder
 3. Type the following command into the terminal: 
 ```
-./install.sh
+bash install.sh
 ```
 
 ## Running the APP
@@ -52,7 +52,7 @@ The simplest way to run this application on your local machine is to:
 
 2. Type the following command into the terminal:
 ```
-./run_app.sh
+bash run_app.sh
 ```
 3. It is recommend to view the terminal in full screen.
 
